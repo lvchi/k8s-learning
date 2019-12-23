@@ -15,6 +15,10 @@ spec:
       containers:
       - name: kubernetes-demo
         image: anshuldevops/kubernetes-demo
+        resources:
+          limits:
+            memory: "128Mi"
+            cpu: "500m"
         command: ["node", "index-db.js"]
         ports:
         - name: nodejs-port
