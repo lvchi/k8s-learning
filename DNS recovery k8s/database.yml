@@ -9,9 +9,9 @@ spec:
   - name: mysql
     image: mysql:5.7
     resources:
-          limits:
-            memory: "128Mi"
-            cpu: "500m"
+      limits:
+        memory: "128Mi"
+        cpu: "500m"
     ports:
     - name: mysql-port
       containerPort: 3306
