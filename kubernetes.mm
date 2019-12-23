@@ -84,7 +84,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1576811917937" FOLDED="true" ID="ID_478452363" MODIFIED="1576813745507" POSITION="left" TEXT="Secrets">
+<node CREATED="1576811917937" ID="ID_478452363" MODIFIED="1576835834414" POSITION="left" TEXT="Secrets">
 <node CREATED="1576813633660" ID="ID_1702710003" MODIFIED="1576813640055" TEXT="Define: used to manage sensitive Data in Kubernetes. Like, Password, credentials, keys, authentication tokens etc."/>
 <node CREATED="1576813722215" ID="ID_703125080" MODIFIED="1576813723480" TEXT="can be used with a pod in two ways">
 <node CREATED="1576813725827" ID="ID_1507178121" MODIFIED="1576813733228" TEXT="As files in a Volume mounted on one or more of its containers"/>
