@@ -5,7 +5,7 @@ metadata:
 spec:
   ports:
   - port: 3000
-  protocol: TCP
+    protocol: TCP
   selector:
     app: nodejs-web
-    type: NodePort
+  type: LoadBalancer

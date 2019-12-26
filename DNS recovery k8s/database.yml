@@ -7,7 +7,7 @@ metadata:
 spec:
   containers:
   - name: mysql
-    image: mysql:5.7
+    image: mysql:latest
     resources:
       limits:
         memory: "128Mi"
