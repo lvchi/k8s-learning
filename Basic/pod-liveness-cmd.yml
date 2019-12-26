@@ -8,6 +8,10 @@ spec:
   containers:
   - name: liveness
     image: k8s.gcr.io/liveness
+    resources: 
+          limits: 
+            cpu: 250m 
+            memory: 32Mi
     args:
     - /server
     livenessProbe:
